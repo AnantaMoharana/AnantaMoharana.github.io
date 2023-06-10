@@ -132,13 +132,37 @@
             <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="coursework">
             <div class="w-100">
                 <h2 class="mb-5">Projects</h2>
+                
                 <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="resume-content">
-                    <h3 class="mb-0">YardSale - JavaScript, React Native, Expo, and Firebase (In development)</h3>
+                    <h3 class="mb-0">Shopify Sales ERP Data Warehouse - Scala, AWS EC2, AWS Lambda, AWS Eventbridge, Kafka, Spark, Cassandra</h3>
                     <ul>
-                        <li>Creating a marketplace application for students to buy and sell used course material.</li>
-                        <li>App is aimed at promoting sustainability by incentivizing the reuse of course materials.</li>
-                        <li>App is estimated to reduce extraneous course related costs for student by $8,0000/yr in total.</li>
+                        <li>A data warehouse that keeps track of all fulfilled customer orders from a Shopify store to monitor trends in sales and product performance</li>
+                        <li>AWS EventBridge listens for the fulfilled orders web-hook from Shopify and then sends data to AWS Lambda to load into Apache Kafka on AWS EC2</li>
+                        <li>An Apache Spark stream in Scala then reads the data from Apache Kafka, transforms it in real time, and uploads it to a Apache Cassandra data warehouse</li>
+                    </ul>
+                </div>
+                </div> 
+              
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-content">
+                    <h3 class="mb-0">Spotify Summer Tracks Tracker - Python, PostgreSQL, AWS S3, Docker, Airflow</h3>
+                    <ul>
+                        <li>ETL pipeline orchestrated in Apache Airflow that tracks changes in my summer 2023 playlist such as song tracks, song popularity, and artists' popularity</li>
+                        <li>Spotify API pulls and transforms song, artist, and popularity data from the playlist and places it inside an AWS S3 bucket</li>
+                        <li>The data is then validated and then loaded into a PostgreSQL database for storage to be used in future analysis</li>
+                    </ul>
+                </div>
+                </div>                    
+                
+                
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-content">
+                    <h3 class="mb-0">YardSale - JavaScript, React Native, Expo, and Firebase</h3>
+                    <ul>
+                        <li>Creating a marketplace application for students to buy and sell used course material</li>
+                        <li>App is aimed at promoting sustainability by incentivizing the reuse of course materials</li>
+                        <li>App is estimated to reduce extraneous course related costs for student by $8,0000/yr in total</li>
                     </ul>
                 </div>
                 </div>
@@ -146,8 +170,8 @@
                 <div class="resume-content">
                     <h3 class="mb-0">Android Chess App - Java</h3>
                     <ul>
-                        <li>An android chess app that allows two users to play a game of chess as well as saving and replaying prior games.</li>
-                        <li>App also had an A.I button that will make a move for a player if they are stuck.</li>
+                        <li>An android chess app that allows two users to play a game of chess as well as saving and replaying prior games</li>
+                        <li>App also had an A.I button that will make a move for a player if they are stuck</li>
                     </ul>
                 </div>
                 </div>
@@ -155,8 +179,8 @@
                 <div class="resume-content">
                     <h3 class="mb-0">Picture Colorizer - Python</h3>
                     <ul>
-                        <li>Developed a program that uses a 3-layered neural network to recolor black and white images.</li>
-                        <li>The program uses half of the original image as training data, and the K-Means Clustering algorithm to find the most frequent colors in a given image.</li>
+                        <li>Developed a program that uses a 3-layered neural network to recolor black and white images</li>
+                        <li>The program uses half of the original image as training data, and the K-Means Clustering algorithm to find the most frequent colors in a given image</li>
                     </ul>
                 </div>
                 </div>
@@ -164,8 +188,8 @@
                 <div class="resume-content">
                     <h3 class="mb-0">Minesweeper - Python</h3>
                     <ul>
-                        <li>Developed an algorithm that play the classic game Minesweeper with a 98% success rate.</li>
-                        <li>The algorithm makes use of set-theory and a set difference strategy to locate hidden mines.</li>
+                        <li>Developed an algorithm that play the classic game Minesweeper with a 98% success rate</li>
+                        <li>The algorithm makes use of set-theory and a set difference strategy to locate hidden mines</li>
 
                     </ul>
                 </div>
@@ -174,8 +198,8 @@
                 <div class="resume-content">
                     <h3 class="mb-0">Twitter Data Analysis - Python</h3>
                     <ul>
-                        <li>Developed a web-scraping tool to retreive a users Twitter data such as their followers count, following, and tweet contents.</li>
-                        <li>Analyzed the content taken from a users Twitter information to deduce their favorite subjects and visualize patterns in their tweets such as average length and most frequent tweeting times.</li>
+                        <li>Developed a web-scraping tool to retreive a users Twitter data such as their followers count, following, and tweet contents</li>
+                        <li>Analyzed the content taken from a users Twitter information to deduce their favorite subjects and visualize patterns in their tweets such as average length and most frequent tweeting times</li>
                     </ul>
                 </div>
                 </div>
